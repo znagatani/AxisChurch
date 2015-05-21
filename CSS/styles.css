@@ -1,0 +1,41 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div {
+	border: 1px solid #dddddd;
+}
+
+.navBar {
+	text-align: right;
+	height: 106px;
+}
+
+
+.navBar #nav-logo {
+	width: 95px;
+	height: 92px;
+	
+}
+
+.navBar li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+	line-height: 106px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.navBar #nav-logo-position {
+	float: left;
+}
+
+.navBar #navHome {
+	float: left;
+	padding-left: 10px;
+}
+
+.navBar #navButtons {
+}
