@@ -10,6 +10,7 @@ div {
 .navBar {
 	text-align: right;
 	height: 106px;
+	background-color: #313036;
 }
 
 
@@ -30,6 +31,7 @@ div {
 
 .navBar #nav-logo-position {
 	float: left;
+	background-color: white;
 }
 
 .navBar #navHome {
@@ -38,4 +40,5 @@ div {
 }
 
 .navBar #navButtons {
+	color: #fffbfb;
 }
