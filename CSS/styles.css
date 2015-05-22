@@ -1,65 +1,74 @@
 body {
-	width: 960px;
 	margin: 0 auto;
 }
 
-div {
-	border: 1px solid #dddddd;
+.width {
+	width: 100%;
 }
 
-.navBarButtons {
+
+
+.navBar {
 	text-align: right;
-	height: 80px;
-	background-color: #313036;
+	height: 106px;
+	width: 100%;
+	float:center;
+	margin: 0 auto;
 }
 
 
-.navBarButtons #nav-logo {
+.navBar #nav-logo {
 	width: 95px;
 	height: 92px;
 	
 }
 
-.navBarButtons li {
+.navBar li {
 	list-style-type: none;
 	display: inline;
 	padding: 10px;
 	line-height: 106px;
-	font-size: 22px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: helvetica;
 }
 
-.nav-logo {
-width: 122px;
-margin-right: 20px;
-background-color: white;
+.navBar #nav-logo-position {
+	float: left;
 }
 
-.nav-logo li {
-	list-style-type: none;
-}
-
-.nav-logo #nav-logo-position {
-	width: 95px;
-	height: 92px;
-}
-
-.navBarButtons #navHome {
+.navBar #navHome {
 	float: left;
 	padding-left: 10px;
 }
 
-.navBarButtons #navButtons {
-	color: #fffbfb;
-	font-family: helvetica;
+.navBar #navButtons {
 }
 
-.mainPage #vision{
+#vision{
 	text-align: center;
 	font-size: 32px;
 	font-family: helvetica;
+	width: 960px;
+	margin: 10px auto 10px auto;
 }
 
 #address {
 	text-align: center;
 	font-family: helvetica;
+	width: 960px;
+	margin: 10px auto 10px auto;
+}
+
+#background-container {
+	width: 100%;
+	margin: 10px auto 10px auto;
+	background-image: url("../Images/backgroundtest.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mainLogo {
+	width:960px;
+	margin: 0 auto 0 auto;
 }
