@@ -46,7 +46,7 @@ div #nav-bg-color {
 	width: 100%;
 	float:center;
 	margin: 0px auto 0px auto;
-	/*position: fixed; */
+	position: fixed; 
 }
 
 
@@ -98,7 +98,7 @@ div #nav-bg-color {
 
 #background-container {
 	width: 100%;
-	margin: 0px auto 10px auto;
+	margin: 80px auto 10px auto;
 	background-image: url("../Images/backgroundtest.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -113,6 +113,7 @@ div #nav-bg-color {
 	background-color: #313036;
 	border: 1px solid #313036;
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 #nav-bg-color li {
