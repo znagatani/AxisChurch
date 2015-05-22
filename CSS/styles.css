@@ -7,38 +7,59 @@ div {
 	border: 1px solid #dddddd;
 }
 
-.navBar {
+.navBarButtons {
 	text-align: right;
-	height: 106px;
+	height: 80px;
 	background-color: #313036;
 }
 
 
-.navBar #nav-logo {
+.navBarButtons #nav-logo {
 	width: 95px;
 	height: 92px;
 	
 }
 
-.navBar li {
+.navBarButtons li {
 	list-style-type: none;
 	display: inline;
 	padding: 10px;
 	line-height: 106px;
-	font-size: 28px;
-	font-weight: bold;
+	font-size: 22px;
 }
 
-.navBar #nav-logo-position {
-	float: left;
-	background-color: white;
+.nav-logo {
+width: 122px;
+margin-right: 20px;
+background-color: white;
 }
 
-.navBar #navHome {
+.nav-logo li {
+	list-style-type: none;
+}
+
+.nav-logo #nav-logo-position {
+	width: 95px;
+	height: 92px;
+}
+
+.navBarButtons #navHome {
 	float: left;
 	padding-left: 10px;
 }
 
-.navBar #navButtons {
+.navBarButtons #navButtons {
 	color: #fffbfb;
+	font-family: helvetica;
+}
+
+.mainPage #vision{
+	text-align: center;
+	font-size: 32px;
+	font-family: helvetica;
+}
+
+#address {
+	text-align: center;
+	font-family: helvetica;
 }
