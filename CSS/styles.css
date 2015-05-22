@@ -170,46 +170,62 @@ fieldset {
 }
 
 .bottom-page-container {
-	border: 2px solid green;
 	width: 960px;
 	margin: 120px auto 60px auto;
 }
 
 .map {
 	width: 480px;
-	border: 2px solid red;
 }
 
 .map iframe {
-}
-
-footer {
-text-align: center;
 }
 
 #map-text {
 	font-size: 16px;
 	font-weight: bold;
 	vertical-align: top;
-	border: 2px dotted yellow;
 	font-family: helvetica;
 	display: inline-block;
 	
 }
+ 
 
-.social-networks img{
-	width: 76px;
-	height: 76px;
+footer {
+text-align: left;
+margin-left: 20px;
+line-height: 5px;
+color: #DDDDDD;
+background-color: #232227;
 }
 
-.social-networks {
- width: 475px;
- border: 2px solid blue;
- }
+footer p {
+/*float: right; */
 
+}
+
+#copyright {
+}
+.social-networks {
+ width: 300px;
+ border: 2px solid blue;
+ float: right;
+ }
+ 
+footer img {
+ float: right;
+ margin-right: 20px;
+ margin-left: 20px;
+ width: 35px;
+height: 35px;
+ }
+ 
 #follow {
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
-	text-align: center;
+	text-align: right;
+	margin-right: 20px;
+	line-height: 40px;
+	vertical-align: top;
 }
