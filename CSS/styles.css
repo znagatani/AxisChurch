@@ -2,13 +2,37 @@ body {
 	margin: 0 auto;
 }
 
-/* div{
-	border: 1px solid #ddd;
+.giveWrapper {
 }
- span {
-	border: 1px solid #ddd;
-	height: 106px;
+
+#giveButton {
+	width: 120px;
+	margin: 10px 0 10px 0;
+}
+
+
+
+ /* div .navBar{
+	border: 2px dotted #ddd;
+} just for keeping things organized */
+
+div #nav-bg-color {
+	/* border: 2px dotted #ddd; */
+	height:60px;
+	position: relative;
+}
+
+
+
+/*.navbar {
+	border: 3px dotted #ddd;
 } */
+
+ span {
+	/*border: 1px solid #ddd; */
+	height: 106px;
+	display:inline;
+}
 
 .width {
 	width: 100%;
@@ -18,45 +42,40 @@ body {
 
 .navBar {
 	text-align: right;
-	height: 106px;
+	height: 60px;
 	width: 100%;
 	float:center;
-	margin: 10px auto 0px auto;
-	
+	margin: 0px auto 0px auto;
+	/*position: fixed; */
 }
 
 
 .navBar #nav-logo {
-	width: 80px;
-	height: 77px;
-	margin-top: 20px;
-	
+	width: 60px;
+	height: 58px;
 }
 
 .navBar li {
 	list-style-type: none;
 	display: inline;
-	padding: 10px;
+	padding-right: 20px;
 	line-height: 106px;
-	font-size: 28px;
-	font-weight: bold;
+	font-size: 18px;
 	font-family: helvetica;
 	color: #fdfdfd;
+	position: relative;
 	
 }
 
 .navBar #nav-logo-position {
 	float: left;
-	background-color: white;
+	/* background-color: white; */
 	height: 106px;
-	margin-right: none;
-	margin-right: none;
-	line-height: 50px;
 }
 
 .navBar #navHome {
 	float: left;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .navBar #navButtons li {
@@ -93,4 +112,11 @@ body {
 #nav-bg-color {
 	background-color: #313036;
 	border: 1px solid #313036;
+	width: 100%;
 }
+
+#nav-bg-color li {
+	line-height: 20px;
+}
+
+
