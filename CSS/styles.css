@@ -171,14 +171,19 @@ fieldset {
 
 .map {
 	width: 960px;
-	margin: 60px auto 60px auto;
+	margin: 120px auto 60px auto;
 }
 
-.map iframe {
-	
-}
 
 footer {
 text-align: center;
+}
+
+#map-text {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: top;
+	margin-left: 20px;
 }
 
