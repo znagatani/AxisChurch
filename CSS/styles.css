@@ -2,6 +2,14 @@ body {
 	margin: 0 auto;
 }
 
+/* div{
+	border: 1px solid #ddd;
+}
+ span {
+	border: 1px solid #ddd;
+	height: 106px;
+} */
+
 .width {
 	width: 100%;
 }
@@ -13,13 +21,15 @@ body {
 	height: 106px;
 	width: 100%;
 	float:center;
-	margin: 0 auto;
+	margin: 10px auto 0px auto;
+	
 }
 
 
 .navBar #nav-logo {
-	width: 95px;
-	height: 92px;
+	width: 80px;
+	height: 77px;
+	margin-top: 20px;
 	
 }
 
@@ -31,10 +41,17 @@ body {
 	font-size: 28px;
 	font-weight: bold;
 	font-family: helvetica;
+	color: #fdfdfd;
+	
 }
 
 .navBar #nav-logo-position {
 	float: left;
+	background-color: white;
+	height: 106px;
+	margin-right: none;
+	margin-right: none;
+	line-height: 50px;
 }
 
 .navBar #navHome {
@@ -42,7 +59,7 @@ body {
 	padding-left: 10px;
 }
 
-.navBar #navButtons {
+.navBar #navButtons li {
 }
 
 #vision{
@@ -62,7 +79,7 @@ body {
 
 #background-container {
 	width: 100%;
-	margin: 10px auto 10px auto;
+	margin: 0px auto 10px auto;
 	background-image: url("../Images/backgroundtest.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -71,4 +88,9 @@ body {
 #mainLogo {
 	width:960px;
 	margin: 0 auto 0 auto;
+}
+
+#nav-bg-color {
+	background-color: #313036;
+	border: 1px solid #313036;
 }
