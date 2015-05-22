@@ -98,10 +98,11 @@ div #nav-bg-color {
 
 #background-container {
 	width: 100%;
-	margin: 80px auto 10px auto;
+	margin: 80px auto 0px auto;
 	background-image: url("../Images/backgroundtest.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 #mainLogo {
@@ -111,13 +112,73 @@ div #nav-bg-color {
 
 #nav-bg-color {
 	background-color: #313036;
-	border: 1px solid #313036;
 	width: 100%;
 	margin-bottom: 20px;
 }
 
 #nav-bg-color li {
-	line-height: 20px;
+	line-height: 30px;
 }
 
+#bg-color-container {
+	background-color: #3f3d45;
+	margin-top: 0px;
+	height: 300px;
+}
+
+#vision, #address {
+	padding: 10px;
+	color: #DDDDDD;
+}
+
+
+.user-boxes {
+	width: 960px;
+	margin: 100px auto 20px auto;
+}
+
+#sermons {
+	width: 200px;
+	height: 246px;
+	margin-right:60px;
+	margin-left: 60px;
+}
+
+#email-list{
+	width: 200px;
+	height: 246px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+#calendar {
+	width: 200px;
+	height: 246px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+fieldset {
+
+	height: 246px;
+	background-color: #3f3d45;
+	color: #DDDDDD;
+}
+
+.user-boxes #sermons, #email-list, #calendar {
+	display: inline-block;
+}
+
+.map {
+	width: 960px;
+	margin: 60px auto 60px auto;
+}
+
+.map iframe {
+	
+}
+
+footer {
+text-align: center;
+}
 
