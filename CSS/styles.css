@@ -6,6 +6,12 @@ h1, p {
 	margin: 0;
 }
 
+a {
+	text-decoration: none;
+	color: #fdfdfd;
+}
+
+
 .giveWrapper {
 }
 
@@ -136,7 +142,7 @@ div #nav-bg-color {
 
 #vision, #address {
 	padding: 10px;
-	color: #DDDDDD;
+	color: /* #DDDDDD */ #fdfdfd;
 }
 
 
