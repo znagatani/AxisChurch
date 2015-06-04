@@ -3,7 +3,7 @@ body {
 }
 
 h1, p {
-	margin: 0;
+	margin: 0px;
 }
 
 a {
@@ -18,11 +18,19 @@ a {
 #giveButton {
 	width: 120px;
 	margin: 10px 0 10px 0;
+	text-align: right;
 }
 
-/* div {
-	border: 2px dotted yellow;
-} */
+#give {
+	text-align: center;
+	/* background-color: #313036;
+	color: #fdfdfd;
+	margin-right: 40px;*/
+}
+
+ /* div {
+	border: 2px dotted blue;
+} */ 
 
 
  /* div .navBar{
@@ -82,7 +90,8 @@ div #nav-bg-color {
 .navBar #nav-logo-position {
 	float: left;
 	/* background-color: white; */
-	height: 106px;
+	height: 60px;
+	position: relative;
 }
 
 .navBar #navHome {
@@ -110,7 +119,7 @@ div #nav-bg-color {
 
 #background-container {
 	width: 100%;
-	margin: 80px auto 0px auto;
+	margin: 40px auto 0px auto;
 	background-image: url("../Images/backgroundtest.png");
 	background-repeat: no-repeat;
 	background-size: cover;
