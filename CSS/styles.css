@@ -2,6 +2,10 @@ body {
 	margin: 0 auto;
 }
 
+h1, p {
+	margin: 0;
+}
+
 .giveWrapper {
 }
 
@@ -10,6 +14,9 @@ body {
 	margin: 10px 0 10px 0;
 }
 
+/* div {
+	border: 2px dotted yellow;
+} */
 
 
  /* div .navBar{
@@ -124,6 +131,7 @@ div #nav-bg-color {
 	background-color: #3f3d45;
 	margin-top: 0px;
 	height: 300px;
+	border: 1px solid #3f3d45;
 }
 
 #vision, #address {
