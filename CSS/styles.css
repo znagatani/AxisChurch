@@ -154,6 +154,10 @@ div #nav-bg-color {
 	color: /* #DDDDDD */ #fdfdfd;
 }
 
+#address {
+	font-size: 32px;
+}
+
 
 .user-boxes {
 	width: 960px;
